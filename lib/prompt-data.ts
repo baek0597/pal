@@ -19,7 +19,6 @@ export const chapters: Chapter[] = [
       "Drawing 1",
       "Drawing 2",
       "Graph Analysis",
-      "Statistical Analysis",
       "Brainstorming",
       "Preparing a Persuasive Initial Report Using GPT",
     ],
