@@ -4,8 +4,8 @@ import { useState } from "react"
 import { Download, FileArchive, CheckCircle } from "lucide-react"
 
 const FILE_URL =
-  "https://github.com/baek0597/pal/raw/main/global pal.zip"
-const FILE_NAME = "global pal.zip"
+  "https://naver.me/G5kWjpbi"
+const FILE_NAME = "global_pal.zip"
 
 export function FileDownloadView() {
   const [downloading, setDownloading] = useState(false)
