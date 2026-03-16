@@ -34,10 +34,7 @@ export const chapters: Chapter[] = [
         section: "Strategy Formulation",
         text: `I'm a management consultant working with an electric bicycle manufacturer. Recently, we've seen a surge in competitors entering the market, which signals the need for new strategic approaches. Please develop appropriate strategies by analyzing the current economic conditions, trends in leisure sports, and conducting a SWOT analysis.`,
       },
-      {
-        section: "Improvement Measures Derived",
-        text: `Please answer in English\nI've uploaded POSCO Holdings' semiannual report. As an HR department manager, I'm responsible for identifying areas for improvement. Please review the report and summarize HR-related issues that require enhancement using the table format below:\n# Format\n- Structure the table with four columns\n- From Column 1: Starting with number, title, key content, importance (4-point scale with star rating)`,
-      },
+      
       {
         section: "Drawing 1",
         text: `I need you to create an image following the instructions below:\nImage: : There is a sea around the steel mill. The steel mill has a sign titled "POSCO", and we see a large-scale vessel with three seagulls flying around it. And one Korean male idol member and one Korean female idol member are smiling to welcome customers.\nStyle: Realistic\nAspect Ratio: 16:9`,
