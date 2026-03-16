@@ -16,7 +16,6 @@ export const chapters: Chapter[] = [
     title: "ChatGPT at a Glance",
     sections: [
       "Strategy Formulation",
-      "Improvement Measures Derived",
       "Drawing 1",
       "Drawing 2",
       "Graph Analysis",
