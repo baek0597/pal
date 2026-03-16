@@ -20,7 +20,6 @@ export const chapters: Chapter[] = [
       "Drawing 2",
       "Graph Analysis",
       "Statistical Analysis",
-      "40 Principles of Invention",
       "Brainstorming",
       "Preparing a Persuasive Initial Report Using GPT",
     ],
@@ -50,10 +49,7 @@ export const chapters: Chapter[] = [
         section: "Graph Analysis",
         text: `Create a table showing the average values grouped by gender, age, and RUNPULSE, and then draw a box plot`,
       },
-      {
-        section: "Statistical Analysis",
-        text: `You are a statistics expert. Please analyze the following data. \n- A : 73.4  77.0  73.7  73.3  73.1  71.5  74.5  77.5  76.4  77.7\n- B : 68.7  71.4  69.8  75.3  71.3  72.7  66.9  70.2  74.4  70.1\n→ Hypothesis Setup   \n   - H0: No difference in the population means between the two groups.   \n  - H1: A difference in the population means between the two groups. \n→ Conduct a test to determine if the population means of two groups differ.  (0.05 significance level)\n→ Draw a box plot to compare them visually → Explain what the results mean in plain language`,
-      },
+     
       {
         section: "40 Principles of Invention",
         text: `As a TRIZ expert, you are tasked with enhancing the suction power of a vacuum cleaner to improve cleaning performance on carpets and bedding. However, increasing suction causes the nozzle to stick to the surface of the carpets and bedding, making it difficult to use. To resolve this, please apply the most suitable principles from the 40 Inventive Principles. \nGive me details`,
@@ -84,7 +80,6 @@ export const chapters: Chapter[] = [
     id: "ch3",
     title: "Google AI Tools I",
     sections: [
-      "Web Report Using Gemini",
       "Image generation Using Nano banana",
       "Create an ID photo",
       "Creation Music",
@@ -92,10 +87,6 @@ export const chapters: Chapter[] = [
       "Coding 2",
     ],
     prompts: [
-      {
-        section: "Web Report Using Gemini",
-        text: `I need to write a report on the Steel Market Outlook and POSCO's Strategy based on the attached file. Please draft the report in english following the guidelines below:\n1. Table of Contents : Steel Market Outlook, Key Issues, POSCO's Strategy/Response, Future Plans\n2. Detailed Structure : Create 2 to 3 sub-items for each section of the Table of Contents.\n3. Content Requirements :\nUnder each sub-item, provide detailed descriptions in bullet points (bulleted list format).\nEach description must be at least 100 characters and span at least 2 lines.\n[Output Format]\n## {1. Table of Contents}\n### {Sub-item}\n- {Key Details/Content}`,
-      },
       {
         section: "Image generation Using Nano banana",
         text: `I need you to create an image following the instructions below:\nImage: : There is a sea around the steel mill. The steel mill has a sign titled "POSCO", and we see a large-scale vessel with three seagulls flying around it. And one Korean male idol member and one Korean female idol member are smiling to welcome customers.\nStyle: Realistic\nAspect Ratio: 16:9`,
